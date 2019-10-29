@@ -1,0 +1,56 @@
+/*
+Theme Name: shop-isle_child
+Description: Créa'Lin
+Author: Loic Valery
+Author URI: https://www.linkedin.com/in/loicvalery/
+Template: shop-isle
+Version: 0.1.0
+*/
+:root{
+	--color-primary:#9FA0E2;
+	--color-secondary:#E3D69F;
+
+}
+
+/*taille du logo*/
+.custom-logo {
+    width: 7rem;
+}
+
+/*couleurs du menu */
+.navbar.navbar-custom.navbar-fixed-top.navbar-color-on-scroll, .navbar-custom, .page .navbar-custom {
+    background-color: var(--color-primary) !important;
+}
+.navbar-custom .nav li > a{
+	color: var(--color-secondary);
+}
+
+.button {
+    background-color: var(--color-primary) !important;
+    color: var(--color-secondary) !important;
+}
+/*selection de prix curseurs*/
+.widget_price_filter .ui-slider .ui-slider-handle {
+    background: var(--color-primary) !important;
+}
+
+/*boutons lire la suite blog*/
+.more-link{
+
+    background-color: var(--color-primary);
+  	color: var(--color-secondary);
+    padding: 1rem;
+ }
+/*fleche lire la suite*/
+.more-link::after{
+	color: var(--color-secondary);
+}
+.more-link:hover{
+	background-color: var(--color-secondary);
+  	color: var(--color-primary);
+    padding: 1rem;
+}
+
+.more-link::after:hover{
+	color: var(--color-secondary);
+}
